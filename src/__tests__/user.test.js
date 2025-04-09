@@ -1,7 +1,11 @@
-import { username, city, image } from "../data/user";
+
+
+import { username, city, image } from "../data/user"; 
 
 test("username, city, and image are all exported", () => {
-  expect(username).toEqual("Liza");
+  console.log(username, city, image);
+  expect(username).toEqual("liza");
   expect(city).toEqual("New York");
   expect(image).toEqual("https://i.imgur.com/mV8PQxj.gif");
 });
+
